@@ -2,7 +2,7 @@ DESCRIPTION = "Rocktech ISG503 U-Boot"
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=30503fd321432fc713238f582193b78e"
 
-require recipes-bsp/u-boot/u-boot.inc
+require u-boot-rockchip.inc
 
 DEPENDS_append = " bison-native rkbin "
 

@@ -7,9 +7,10 @@ LIC_FILES_CHKSUM = "file://LICENSE.TXT;md5=564e729dd65db6f65f911ce0cd340cf9"
 NO_GENERIC_LICENSE[BINARY] = "LICENSE.TXT"
 
 SRC_URI = " \
-    git://github.com/RockSupport/rkbin;protocol=file;branch=main \
+    git://github.com/armbian/rkbin \
+    file://PX30TRUST.ini \
 "
-SRCREV = "de4e6ef352a8ba6b25163ed84a3e2a53303cd840"
+SRCREV = "cd0c2bbc16eba65c6a996809e8026f01f7e435d2"
 
 S = "${WORKDIR}/git"
 
